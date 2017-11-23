@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prayudad.invitationcard.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/envelope"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOU ARE INVITED !!"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textColor="#E65100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="December 3rd 2017
+       7pm - 11 pm
+
+ 1234 Howl Avenue
+  San Francisco, CA"
+        android:textSize="25sp"
+        android:textColor="#F50057"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <ImageView
+        android:layout_width="127dp"
+        android:layout_height="136dp"
+        android:src="@drawable/join_us"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEGAN'S 20th BIRTHDAY"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="71dp"
+        android:src="@drawable/dont"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+</android.support.constraint.ConstraintLayout>
